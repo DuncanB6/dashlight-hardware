@@ -1,0 +1,585 @@
+{
+  "uuid": "f1972bbea9d559e3295eb3ab9dd81045",
+  "path": "Offline/Dashlight",
+  "name": "Dashlight",
+  "content": "7 segment for displaying metrics in the Yellow Peril",
+  "created_at": "2024-07-28 14:14:19",
+  "updated_at": "2024-09-06 18:30:12",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b6ad43e11f60840241a5d32574c08b40",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "88e045c03dfb46d9887360bee7c04810": 1,
+        "5224c51789124eb5b437ae63db42f453": 1,
+        "e81fc13d97c148adb15a0383a16b46d9": 1,
+        "5ead8412e985440395e1ec6ac9841fc3": 1,
+        "e72279616b8e477ebb2c1516a6dc104c": 1,
+        "823b0db689f9400695eb7931d58cfa2f": 8,
+        "addb8406b29c4ee1a903b4a1ea05a646": 1,
+        "4363dc679f85409d8170eaa85095a946": 2,
+        "cf871078049f4f328c098550293f6878": 4,
+        "72a79808cd1446f296c8fe08e430eb3d": 1,
+        "3a854c9a4e57d61351ac31cb64fbba0f": 2,
+        "26828e0c68504df080d3eb1b880d5a31": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1-POINT TEST POINT",
+          8,
+          "1-POINT_TEST-POINT",
+          "3.3V,GND,OBD_UC_RX,OBD_UC_TX,SHIFT_CLOCK1,SHIFT_CLOCK2,SHIFT_INPUT1,SHIFT_INPUT2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "B5B-PH-K-S-(LF)(SN)",
+          4,
+          "CONN-TH_B5B-PH-K-S-LF-SN",
+          "7SEG_BOTTOM,OBD,POT,SNAP",
+          {
+            "Manufacturer Part": "B5B-PH-K-S(LF)(SN)",
+            "Manufacturer": "JST",
+            "Supplier": "LCSC",
+            "Supplier Part": "C157993"
+          }
+        ],
+        [
+          "B7B-PH-K-S-(LF)(SN)",
+          1,
+          "CONN-TH_B7B-PH-K-S-LF-SN",
+          "7SEG_TOP",
+          {
+            "Manufacturer Part": "B7B-PH-K-S(LF)(SN)",
+            "Manufacturer": "JST",
+            "Supplier": "LCSC",
+            "Supplier Part": "C157981"
+          }
+        ],
+        [
+          "B2B-PH-K-S(LF)(SN)",
+          2,
+          "CONN-TH_B2B-PH-K-S",
+          "BATTERY,SWITCH",
+          {
+            "Manufacturer Part": "B2B-PH-K-S(LF)(SN)",
+            "Manufacturer": "JST",
+            "Supplier": "LCSC",
+            "Supplier Part": "C131337"
+          }
+        ],
+        [
+          "SR211C104KARTR1",
+          4,
+          "SR211C104KARTR1",
+          "DC_CAP_1,DC_CAP_2,RTCC_CAP_1,RTCC_CAP_2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "B10B-PH-K-S-(LF)(SN)",
+          1,
+          "CONN-TH_B10B-PH-K-S-LF-SN",
+          "EXTRA",
+          {
+            "Manufacturer Part": "B10B-PH-K-S(LF)(SN)",
+            "Manufacturer": "JST",
+            "Supplier": "LCSC",
+            "Supplier Part": "C158038"
+          }
+        ],
+        [
+          "PIC32MX130F064B-I/SP",
+          1,
+          "SPDIP-28_L34.7-W7.2-P2.54-LS7.9-BL",
+          "PIC32",
+          {
+            "Manufacturer Part": "PIC32MX130F064B-I/SP",
+            "Manufacturer": "Microchip Tech",
+            "Supplier": "LCSC",
+            "Supplier Part": "C643652"
+          }
+        ],
+        [
+          "reset_button",
+          1,
+          "THROUGH-HOLE 6X6MM PUSH BUTTON",
+          "RESET",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "RESISTOR",
+          1,
+          "RESISTOR THROUGH-HOLE",
+          "RESET_R",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "32.768kHz",
+          1,
+          "CRYSTAL-TH_BD3.1-L8.0-P1.10-D0.3",
+          "RTCC",
+          {
+            "Manufacturer Part": "MP2032K76812002",
+            "Manufacturer": "HUAXIN(华昕)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C17702402"
+          }
+        ],
+        [
+          "SN74HC164N",
+          2,
+          "DIP-14_L20.0-W7.6-P2.54-LS8.0-BL",
+          "SHIFT_1,SHIFT_2",
+          {
+            "Manufacturer Part": "SN74HC164N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2908"
+          }
+        ],
+        [
+          "100uF",
+          1,
+          "100UF (THROUGH HOLE) CP",
+          "UC_CAP",
+          {
+            "Manufacturer Part": "100uF 10V 4*7",
+            "Manufacturer": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C43314"
+          }
+        ]
+      ],
+      "updateTime": 1725669804,
+      "createTime": 1722201260,
+      "histories": [],
+      "created_at": "2024-07-28 14:14:20",
+      "updated_at": "2024-09-06 17:43:24"
+    },
+    {
+      "uuid": "b702d63e291f9eac8405809199a225d8",
+      "puuid": "f1972bbea9d559e3295eb3ab9dd81045",
+      "title": "PCB_Dashlight_V1",
+      "filename": "PCB_Dashlight_V1.json",
+      "description": "USES INCORRECT FOOTPRINTS FOR CONNECTORS",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "95a75dcc51d04f1aac5fd33cd4016a21": 1,
+        "a2de2cc30939485896d9bf25c5aad64c": 2,
+        "dac3f62ee88a44f9bad8d47ceebd9901": 4,
+        "563433962e2240c4aaf3e53244e8e7e0": 1,
+        "0ebf6f0619f946acad45ec0dbc7f4aff": 1,
+        "479ffe1e71de458789aa8bbf28a42d4c": 1,
+        "72ea9dfd15934554876213bfa3eeece0": 1,
+        "685852cc938942a28710d28b58dd16e9": 2,
+        "97329f3000c84df9be2da378f1161e7c": 2,
+        "5b06f38a90ab49559757ec1268f4ad37": 2,
+        "f500d1b76425430e830c9d4861502d78": 1,
+        "623116133f1a4ae484694e9ee1c95c37": 1,
+        "da837ea22dfd44eaad97f24b1d39e004": 8
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Molex SL 5P",
+          2,
+          "MOLEX SL 5P",
+          "7SEG_BOTTOM,SNAP",
+          {
+            "Manufacturer Part": "0705430004",
+            "Manufacturer": "Molex",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "WM4803-ND"
+          }
+        ],
+        [
+          "molex7",
+          1,
+          "MOLEX7",
+          "7SEG_TOP",
+          {
+            "Manufacturer Part": "molex7",
+            "Manufacturer": "EasyEDA",
+            "Supplier": "EasyEDA",
+            "Supplier Part": "E49256"
+          }
+        ],
+        [
+          "MOLEX 2P",
+          2,
+          "MOLEX2P",
+          "BATTERY,SWITCH",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "MOLEX",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100uF",
+          1,
+          "100UF (THROUGH HOLE) CP",
+          "DC_CAP",
+          {
+            "Manufacturer Part": "100uF 10V 4*7",
+            "Manufacturer": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C43314"
+          }
+        ],
+        [
+          "Term Block 9Pos 0.1in",
+          1,
+          "PHOENIX_CONTACT_1725724",
+          "EXTRA",
+          {
+            "Manufacturer Part": "1725724",
+            "Manufacturer": "Phoenix Contact",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "277-1280-ND"
+          }
+        ],
+        [
+          "6 pin molex",
+          1,
+          "MOLEX 6 PIN",
+          "OBD",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "PIC32MX130F064B-I/SP",
+          1,
+          "SPDIP-28_L34.7-W7.2-P2.54-LS7.9-BL",
+          "PIC32",
+          {
+            "Manufacturer Part": "PIC32MX130F064B-I/SP",
+            "Manufacturer": "Microchip Tech",
+            "Supplier": "LCSC",
+            "Supplier Part": "C643652"
+          }
+        ],
+        [
+          "CONN_03POLAR",
+          1,
+          "MOLEX-1X3",
+          "POT",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "reset_button",
+          1,
+          "THROUGH-HOLE 6X6MM PUSH BUTTON",
+          "RESET",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "RESISTOR",
+          1,
+          "RESISTOR THROUGH-HOLE",
+          "RESET_RESISTOR",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "32.768kHz",
+          1,
+          "CRYSTAL-TH_BD3.1-L8.0-P1.10-D0.3",
+          "RTCC",
+          {
+            "Manufacturer Part": "MP2032K76812002",
+            "Manufacturer": "HUAXIN(华昕)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C17702402"
+          }
+        ],
+        [
+          "cap",
+          2,
+          "CAPACITOR CERAMIC THROUGH-HOLE",
+          "RTCC_CAP_1,RTCC_CAP_2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "SN74HC164N",
+          2,
+          "SN74HC164N",
+          "SHIFT_1,SHIFT_2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1722787404,
+      "createTime": 1722575432,
+      "histories": [],
+      "created_at": "2024-08-01 22:10:32",
+      "updated_at": "2024-08-04 09:03:24"
+    },
+    {
+      "uuid": "37500dfffef6747a05ecde97a35a9630",
+      "puuid": "f1972bbea9d559e3295eb3ab9dd81045",
+      "title": "PCB_Dashlight_V2",
+      "filename": "PCB_Dashlight_V2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "da837ea22dfd44eaad97f24b1d39e004": 8,
+        "dc1bec8a96fb431eb7651cbafb5d5215": 4,
+        "32fe14c5e3bb442ea8716863faa45467": 1,
+        "685bd04c33df492ab1ad332fe461c196": 2,
+        "b16fe735702e4913b94bda2102154c34": 1,
+        "563433962e2240c4aaf3e53244e8e7e0": 1,
+        "0ebf6f0619f946acad45ec0dbc7f4aff": 1,
+        "72ea9dfd15934554876213bfa3eeece0": 1,
+        "95a75dcc51d04f1aac5fd33cd4016a21": 1,
+        "328bc7db1789499bb6bd6bcd7079bb32": 4,
+        "22ce982a411848dc9b4b01fdacf8bdf0": 2,
+        "479ffe1e71de458789aa8bbf28a42d4c": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1-POINT TEST POINT",
+          8,
+          "1-POINT_TEST-POINT",
+          "3.3V,GND,OBD_UC_RX,OBD_UC_TX,SHIFT_CLOCK1,SHIFT_CLOCK2,SHIFT_INPUT1,SHIFT_INPUT2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "B5B-PH-K-S-(LF)(SN)",
+          4,
+          "CONN-TH_B5B-PH-K-S-LF-SN",
+          "7SEG_BOTTOM,OBD,POT,SNAP",
+          {
+            "Manufacturer Part": "B5B-PH-K-S(LF)(SN)",
+            "Manufacturer": "JST",
+            "Supplier": "LCSC",
+            "Supplier Part": "C157993"
+          }
+        ],
+        [
+          "B7B-PH-K-S-(LF)(SN)",
+          1,
+          "CONN-TH_B7B-PH-K-S-LF-SN",
+          "7SEG_TOP",
+          {
+            "Manufacturer Part": "B7B-PH-K-S(LF)(SN)",
+            "Manufacturer": "JST",
+            "Supplier": "LCSC",
+            "Supplier Part": "C157981"
+          }
+        ],
+        [
+          "B2B-PH-K-S(LF)(SN)",
+          2,
+          "CONN-TH_B2B-PH-K-S",
+          "BATTERY,SWITCH",
+          {
+            "Manufacturer Part": "B2B-PH-K-S(LF)(SN)",
+            "Manufacturer": "JST",
+            "Supplier": "LCSC",
+            "Supplier Part": "C131337"
+          }
+        ],
+        [
+          "through_hole_cap",
+          2,
+          "THROUGH_HOLE_CAPACITOR",
+          "DC_CAP_1,DC_CAP_2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "B10B-PH-K-S-(LF)(SN)",
+          1,
+          "CONN-TH_B10B-PH-K-S-LF-SN",
+          "EXTRA",
+          {
+            "Manufacturer Part": "B10B-PH-K-S(LF)(SN)",
+            "Manufacturer": "JST",
+            "Supplier": "LCSC",
+            "Supplier Part": "C158038"
+          }
+        ],
+        [
+          "PIC32MX130F064B-I/SP",
+          1,
+          "SPDIP-28_L34.7-W7.2-P2.54-LS7.9-BL",
+          "PIC32",
+          {
+            "Manufacturer Part": "PIC32MX130F064B-I/SP",
+            "Manufacturer": "Microchip Tech",
+            "Supplier": "LCSC",
+            "Supplier Part": "C643652"
+          }
+        ],
+        [
+          "reset_button",
+          1,
+          "THROUGH-HOLE 6X6MM PUSH BUTTON",
+          "RESET",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "RESISTOR",
+          1,
+          "RESISTOR THROUGH-HOLE",
+          "RESET_RESISTOR",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "32.768kHz",
+          1,
+          "CRYSTAL-TH_BD3.1-L8.0-P1.10-D0.3",
+          "RTCC",
+          {
+            "Manufacturer Part": "MP2032K76812002",
+            "Manufacturer": "HUAXIN(华昕)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C17702402"
+          }
+        ],
+        [
+          "cap",
+          2,
+          "CAPACITOR CERAMIC THROUGH-HOLE",
+          "RTCC_CAP_1,RTCC_CAP_2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "SN74HC164N",
+          2,
+          "SN74HC164N",
+          "SHIFT_1,SHIFT_2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100uF",
+          1,
+          "100UF (THROUGH HOLE) CP",
+          "UC_CAP",
+          {
+            "Manufacturer Part": "100uF 10V 4*7",
+            "Manufacturer": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C43314"
+          }
+        ]
+      ],
+      "updateTime": 1725672612,
+      "createTime": 1725649918,
+      "histories": [],
+      "created_at": "2024-09-06 12:11:58",
+      "updated_at": "2024-09-06 18:30:12"
+    }
+  ],
+  "sort": [],
+  "title": "Dashlight",
+  "foldername": "Dashlight",
+  "schfilename": "Dashlight.json",
+  "schfilemtime": 1725669804970
+}
