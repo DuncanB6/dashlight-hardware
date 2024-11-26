@@ -17,6 +17,8 @@ The PCB and all components are mounted to a 3D printed rack, which is inserted i
 
 ## Prototyping
 
+<img src="media/breadboard.jpg" alt="Schematic" width="300"/>
+
 To develop this device, a prototype was constructed using a breadboard. The components are nearly identical to the finished PCB design. See the BoM for information on parts.
 
 ## Main Board
