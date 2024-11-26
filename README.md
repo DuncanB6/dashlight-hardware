@@ -1,61 +1,55 @@
 # PCB Design for Dashlight Project
 
-This repository includes files used in the design and build of a PCB for the Dashlight project. Find more information about the project at https://github.com/DuncanB6/dashlight-firmware.
+This repository includes files used in the design and build of hardware for the Dashlight project. Find information about the software side of the project at https://github.com/DuncanB6/dashlight-firmware.
 
 ## Overview
 
-This PCB houses a PCI32 microcontroller and the hardware necessary for interface with a 7 segment LED as well as several peripherals. Also includes a RTCC for timekeeping. It's a simple 2 layer PCB equiped with test points, JTAG connectors, and supporting components for the microcontroller. All components are through hole.
+<img src="media/entire_design.jpg" alt="Schematic" width="300"/>
+<img src="media/in_car.jpg" alt="Schematic" width="300"/>
 
----
+The objective of this project is to provide a display for my car (The Yellow Peril) that displays some data while driving. 
 
-## Version 1
+The core to this project is a main PCB which houses a PIC32 microcontroller and the hardware necessary for interface with a 7 segment LED as well as several peripherals. Also includes a RTCC for timekeeping. It's a simple 2 layer PCB equiped with test points, PH connectors, and supporting components for the microcontroller. All components are through hole for easy assemble and to enable breadboard debugging.
 
-### Schematic
+This PCB has two versions. Version 1 was unusable because of incorrect component sizes. Version 2 is currently in use.
 
-![Version 1 Schematic](path_to_version_1_schematic_image.png)
+The PCB and all components are mounted to a 3D printed rack, which is inserted into the empty CD changer slot in my car.
 
-Version 1 is designed with [describe design goals for Version 1, e.g., low power, compact form factor]. It uses components such as [list key components], which are carefully selected to balance performance and cost.
+## Prototyping
 
-### PCB Layout
+To develop this device, a prototype was constructed using a breadboard. The components are nearly identical to the finished PCB design. See the BoM for information on parts.
 
-![Version 1 PCB Layout](path_to_version_1_pcb_image.png)
+## Main Board
 
-The PCB layout for Version 1 features [describe layout features, e.g., minimal routing, compact size, etc.]. The board is optimized for easy manufacturing and soldering, with clear silkscreen markings for all components.
+<img src="media/IMG_6151.jpg" alt="Schematic" width="300"/>
 
----
+This design uses a PIC32 MX130F064B-I/SP microcontroller. It uses a 32.768kHz oscillator for its RTCC (Real Time Clock and Calendar). It uses two SN74HC164N shift registers to control the 7 segment display. PH connectors are used to connect the main PCB to some of the peripherals. A reset button is present to reset the PIC32.
+
+Test points are available for the UART communication with the OBD2 to UART peripheral, the inputs to the shift registers, and the power supply.
+
+## Peripherals
+
+<img src="media/IMG_6153.jpg" alt="Schematic" width="300"/>
+<img src="media/IMG_6154.jpg" alt="Schematic" width="300"/>
+
+Peripherals connect to the main board using one or more PH style connectors. This is to allow for greater modularity. Peripherals include:
+- 7 segment display: Displays all data
+- Switch: On-off switch
+- Potentiometer: Allows user to switch between software modes
+- Battery: Power supply
+- OBD2 to UART board: Translates data from the OBD2 port to UART
+- MPLAB Snap: For debugging and flashing
+
+Additionally, some unused pins are available on a 10 pin PH connector for use with future peripherals.
 
 ## Design Files
 
-The design files for both versions are available in the following formats:
+EasyEDA was used for design. The schematic files are available in this repository, as well as the most recent Gerber file for fabrication. See BoM for components used with this PCB, some parts may differ slightly from PCB design.
 
-- **Schematic**: `.sch` (Schematics for both versions)
-- **PCB Layout**: `.brd` (PCB layout files for both versions)
-- **Gerber Files**: `.zip` (Gerber files for manufacturing)
-- **Bill of Materials (BOM)**: `.csv` (List of components used in both versions)
+## Rack
 
-You can download the design files from the following link:
+<img src="media/cad.png" alt="Schematic" width="300"/>
 
-[Download Design Files](#link-to-design-files)
+The rack is printed in PLA using a Prusa MKS+. It went through a series of iterations that aimed to fit the hardware in a limited space and fit parts accurately. STL and STEP files are available here.
 
----
-
-## How to Use
-
-1. **Schematic and PCB Design**: Open the provided `.sch` and `.brd` files in your preferred PCB design software (e.g., KiCad, Eagle).
-2. **Manufacturing**: If you plan to manufacture the PCB, you can use the Gerber files and BOM to order the PCB and components from any PCB manufacturer.
-3. **Assembly**: Follow the silkscreen markings on the PCB for component placement. Make sure to follow the recommended soldering guidelines for each component.
-4. **Testing**: After assembly, use a multimeter to check for shorts or open circuits before powering on the board. Follow the testing procedure outlined in the documentation.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE), which allows for modification and redistribution. Please see the LICENSE file for more details.
-
----
-
-## Acknowledgements
-
-- Special thanks to [mention contributors, libraries, tools, or resources used].
-- Thanks to [mention any mentors, collaborators, etc.].
 
