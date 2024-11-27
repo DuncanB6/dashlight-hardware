@@ -1,11 +1,13 @@
-# PCB Design for Dashlight Project
+# Hardware for Dashlight Project
 
 This repository includes files used in the design and build of hardware for the Dashlight project. Find information about the software side of the project at https://github.com/DuncanB6/dashlight-firmware.
 
+Although most files and build information is available, trying to reproduce this project without modification is not advised. Differences in your car (either hardware or software) could easily cause headaches. This was built for a 2002 Mazda Protege5.
+
 ## Overview
 
-<img src="media/entire_design.jpg" alt="Schematic" width="300"/>
-<img src="media/in_car.jpg" alt="Schematic" width="300"/>
+<img src="media/in_car.jpg" alt="Schematic" width="355"/>
+<img src="media/entire_design.jpg" alt="Schematic" width="200"/>
 
 The objective of this project is to provide a display for my car (The Yellow Peril) that displays some data while driving. 
 
@@ -23,7 +25,8 @@ To develop this device, a prototype was constructed using a breadboard. The comp
 
 ## Main Board
 
-<img src="media/IMG_6151.jpg" alt="Schematic" width="300"/>
+<img src="media/v2.jpg" alt="Schematic" width="200"/>
+<img src="media/IMG_6151.jpg" alt="Schematic" width="200"/>
 
 This design uses a PIC32 MX130F064B-I/SP microcontroller. It uses a 32.768kHz oscillator for its RTCC (Real Time Clock and Calendar). It uses two SN74HC164N shift registers to control the 7 segment display. PH connectors are used to connect the main PCB to some of the peripherals. A reset button is present to reset the PIC32.
 
@@ -52,6 +55,6 @@ EasyEDA was used for design. The schematic files are available in this repositor
 
 <img src="media/cad.png" alt="Schematic" width="300"/>
 
-The rack is printed in PLA using a Prusa MKS+. It went through a series of iterations that aimed to fit the hardware in a limited space and fit parts accurately. STL and STEP files are available here.
+The rack is printed in PLA using a Prusa MKS+. It went through a series of iterations that aimed to fit the hardware in a limited space and fit parts accurately. It's not an ideal solution, as some modifications had to be made for installation. STL and STEP files are available here.
 
 
